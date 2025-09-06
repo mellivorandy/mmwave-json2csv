@@ -1,5 +1,12 @@
 # mmwave-json2csv
 
+<br>
+
+[<img alt="ci" src="https://github.com/mellivorandy/mmwave-json2csv/actions/workflows/c-cpp.yml/badge.svg" height="20">](https://github.com/mellivorandy/mmwave-json2csv/actions)
+[<img alt="license" src="https://img.shields.io/github/license/mellivorandy/mmwave-json2csv?style=for-the-badge&logo=GITHUB&color=light%20green" height="20">](https://github.com/mellivorandy/mmwave-json2csv?tab=MIT-1-ov-file)
+
+<br>
+
 將 TI mmWave Sensor `IWRL6432BOOST` EVM 感測資料的 JSON 格式自動轉換為 CSV，方便資料分析與後續處理。
 
 <br>
