@@ -1,0 +1,4607 @@
+{
+    "cfg": [
+        "% ***************************************************************\n",
+        "% Gesture Recognition:  Chirp configuration and Processing chain are \n",
+        "% designed to detect gestures kick/hand.  It is typically \n",
+        "% useful for detecting gestures in indoor or outdoor settings.\n",
+        "% ***************************************************************\n",
+        "channelCfg 7 3 0\n",
+        "chirpComnCfg 21 0 0 128 1 34 0\n",
+        "chirpTimingCfg 8 20 0 102.98 59\n",
+        "frameCfg 2 0 200 128 35 0\n",
+        "sigProcChainCfg2 32 32 1 1.35 2.25 25 8 1 1\n",
+        "adcDataSource 0 C:/ti/mmwave_lp_sdk/examples/datapath/common/testBench/gesture_recognition_adc_data/radar_data_6432_100framesS.bin\n",
+        "adcLogging 0\n",
+        "cfarMinorMotionCfg 2 8 3 3 8.0 1\n",
+        "boardTiltAngle 0\n",
+        "pointCloudEnable 0\n",
+        "guiMonSel 0 1 0 1\n",
+        "presenceDetectCfg 1 1200 2000 10\n",
+        "lowPowerCfg 1\n",
+        "factoryCalibCfg 1 0 40 0 0x1ff000\n",
+        "sensorStart 0 0 0 0\n"
+    ],
+    "demo": "Gesture Recognition",
+    "device": "xWRL6432",
+    "data": [
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19056,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.26457405090332,
+                    -0.08788562566041946,
+                    -30.07373809814453,
+                    32.958030700683594,
+                    5.0,
+                    4.096086502075195,
+                    -2.3784313201904297,
+                    53.234336853027344,
+                    37.59221649169922,
+                    -0.7474550008773804,
+                    -0.4764224588871002,
+                    0.17964991927146912,
+                    -0.9199398756027222,
+                    15.383540153503418,
+                    55.66287612915039,
+                    163.70579528808594
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5494,
+                    "transmitOutTime": 2985
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564138.929
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19057,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.59735107421875,
+                    -0.5239896178245544,
+                    -26.88200569152832,
+                    33.20337677001953,
+                    16.0,
+                    -3.089510917663574,
+                    -4.0617899894714355,
+                    75.93412017822266,
+                    41.24913024902344,
+                    -0.4956543743610382,
+                    -0.565382182598114,
+                    0.21149274706840515,
+                    3.975756883621216,
+                    82.60900115966797,
+                    57.32121658325195,
+                    127.65978240966797
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5508,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564156.801
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19058,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.24081039428711,
+                    -2.309460401535034,
+                    -24.917837142944336,
+                    33.15116882324219,
+                    16.0,
+                    -4.732673645019531,
+                    -6.196450710296631,
+                    68.02521514892578,
+                    43.876651763916016,
+                    -0.04288814589381218,
+                    -0.24404701590538025,
+                    0.2125120908021927,
+                    33.66487121582031,
+                    182.42562866210938,
+                    41.71965789794922,
+                    91.2406005859375
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5548,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564201.1143
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19059,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.258398056030273,
+                    -4.5347418785095215,
+                    -24.041847229003906,
+                    33.56394958496094,
+                    33.0,
+                    -8.05025577545166,
+                    -6.618757247924805,
+                    61.38899230957031,
+                    32.46284103393555,
+                    0.6116058826446533,
+                    0.2395528107881546,
+                    0.24639154970645905,
+                    66.30419921875,
+                    311.2925109863281,
+                    20.00240707397461,
+                    29.099014282226562
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5395,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564232.4895
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19060,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.993091583251953,
+                    -4.915268421173096,
+                    -26.657827377319336,
+                    33.61481475830078,
+                    18.0,
+                    -0.7595402598381042,
+                    -4.1790266036987305,
+                    27.858245849609375,
+                    96.8199234008789,
+                    0.7181254625320435,
+                    0.4981709420681,
+                    0.33389347791671753,
+                    80.06934356689453,
+                    353.758056640625,
+                    -18.849807739257812,
+                    -9.973336219787598
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5527,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564258.0232
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19061,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.062517166137695,
+                    -5.400988578796387,
+                    -28.099958419799805,
+                    33.72486114501953,
+                    11.0,
+                    -4.37670373916626,
+                    -1.6642301082611084,
+                    60.76997756958008,
+                    100.8996810913086,
+                    0.7771405577659607,
+                    0.3373386859893799,
+                    0.3957887887954712,
+                    74.91170501708984,
+                    390.3835144042969,
+                    -16.687679290771484,
+                    -20.738258361816406
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5466,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 44,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564288.5217
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19062,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.15376091003418,
+                    -4.126683712005615,
+                    -31.06597900390625,
+                    34.31416702270508,
+                    1.0,
+                    -1.2530691623687744,
+                    -1.7056496143341064,
+                    36.510196685791016,
+                    63.64885711669922,
+                    0.8107679486274719,
+                    0.2859451472759247,
+                    0.38753393292427063,
+                    76.02479553222656,
+                    396.3822021484375,
+                    -17.12774085998535,
+                    -33.348358154296875
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5444,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564318.9287
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19063,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.016868591308594,
+                    -2.3873116970062256,
+                    -33.03794860839844,
+                    34.5129508972168,
+                    1.0,
+                    -3.967379331588745,
+                    -1.604149341583252,
+                    34.79950714111328,
+                    39.55678176879883,
+                    0.8163871765136719,
+                    0.20255343616008759,
+                    0.29999732971191406,
+                    63.28596115112305,
+                    378.2120056152344,
+                    1.341801404953003,
+                    -40.8222541809082
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5372,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564358.789
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19064,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.265546798706055,
+                    0.8573688268661499,
+                    -31.377933502197266,
+                    33.0293083190918,
+                    1.0,
+                    5.577706336975098,
+                    0.6061248779296875,
+                    29.9596004486084,
+                    16.58188247680664,
+                    0.805402934551239,
+                    0.2490825057029724,
+                    0.27930760383605957,
+                    62.802162170410156,
+                    367.66680908203125,
+                    0.6379272937774658,
+                    -38.749820709228516
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5417,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564394.4448
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19065,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.483844757080078,
+                    0.39799776673316956,
+                    -31.53466796875,
+                    32.156646728515625,
+                    1.0,
+                    5.940767288208008,
+                    -2.4341413974761963,
+                    9.271103858947754,
+                    15.660942077636719,
+                    0.7990431785583496,
+                    0.23439952731132507,
+                    0.2245951145887375,
+                    60.352745056152344,
+                    356.462158203125,
+                    0.7967749238014221,
+                    -37.311729431152344
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5507,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 44,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564437.7803
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19066,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.454530715942383,
+                    1.453569769859314,
+                    -33.05013656616211,
+                    30.272218704223633,
+                    5.0,
+                    2.3518874645233154,
+                    -0.48029083013534546,
+                    11.040253639221191,
+                    22.249114990234375,
+                    0.7622090578079224,
+                    0.2935169041156769,
+                    0.23451748490333557,
+                    65.76981353759766,
+                    337.1344909667969,
+                    -6.2380051612854,
+                    -31.70166015625
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5442,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564467.818
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19067,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.505830764770508,
+                    1.1630922555923462,
+                    -32.958003997802734,
+                    30.64470863342285,
+                    3.0,
+                    2.8865785598754883,
+                    -2.2306511402130127,
+                    19.98581314086914,
+                    19.895875930786133,
+                    0.7353683710098267,
+                    0.2855500876903534,
+                    0.27782195806503296,
+                    64.27531433105469,
+                    322.87884521484375,
+                    -7.965847015380859,
+                    -31.307397842407227
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5575,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564501.27
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19068,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.303991317749023,
+                    0.5990983247756958,
+                    -33.93309020996094,
+                    31.478166580200195,
+                    4.0,
+                    -5.9708476066589355,
+                    1.6257340908050537,
+                    65.33688354492188,
+                    71.09236145019531,
+                    0.6414396166801453,
+                    0.3256208300590515,
+                    0.3316740095615387,
+                    77.63078308105469,
+                    277.2252502441406,
+                    -14.164826393127441,
+                    -19.669862747192383
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5681,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564545.2969
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19069,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.37550163269043,
+                    0.9031258225440979,
+                    -33.55253982543945,
+                    33.80087661743164,
+                    0.0,
+                    3.8492159843444824,
+                    -1.3734666109085083,
+                    103.28963470458984,
+                    41.22383117675781,
+                    0.6260108947753906,
+                    0.345799058675766,
+                    0.2946575880050659,
+                    80.58279418945312,
+                    262.25628662109375,
+                    -13.088846206665039,
+                    -18.787906646728516
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5430,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564579.4573
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19070,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.395475387573242,
+                    0.27018222212791443,
+                    -33.9261474609375,
+                    33.675533294677734,
+                    0.0,
+                    4.066087245941162,
+                    -0.9131923913955688,
+                    89.14585876464844,
+                    62.6393928527832,
+                    0.6147631406784058,
+                    0.37564608454704285,
+                    0.27807092666625977,
+                    86.9919204711914,
+                    240.40696716308594,
+                    -11.693596839904785,
+                    -20.43018341064453
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5594,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564623.262
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19071,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.363466262817383,
+                    0.8467447757720947,
+                    -33.47740936279297,
+                    33.85734558105469,
+                    0.0,
+                    6.163729190826416,
+                    -1.4115458726882935,
+                    103.89647674560547,
+                    34.56317138671875,
+                    0.6192576289176941,
+                    0.3880884051322937,
+                    0.2473984807729721,
+                    88.98787689208984,
+                    226.39035034179688,
+                    -10.816317558288574,
+                    -17.31151008605957
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5436,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564654.9712
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19072,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.3436336517334,
+                    0.6527162194252014,
+                    -33.71682357788086,
+                    33.646522521972656,
+                    0.0,
+                    7.534144878387451,
+                    -1.6725200414657593,
+                    60.519500732421875,
+                    26.77764129638672,
+                    0.6230431795120239,
+                    0.41230249404907227,
+                    0.2203485667705536,
+                    92.98004913330078,
+                    211.98550415039062,
+                    -10.415736198425293,
+                    -13.066335678100586
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5530,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564687.7961
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19073,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.35359001159668,
+                    0.7980325818061829,
+                    -33.798675537109375,
+                    33.90172576904297,
+                    0.0,
+                    4.338162422180176,
+                    -1.4796797037124634,
+                    105.7542724609375,
+                    37.49030685424805,
+                    0.6488988995552063,
+                    0.4202638268470764,
+                    0.17809650301933289,
+                    94.94068908691406,
+                    193.6008758544922,
+                    -9.704607009887695,
+                    -9.16993522644043
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5522,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564720.6218
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19074,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.38634490966797,
+                    0.6028282642364502,
+                    -33.66535949707031,
+                    33.81724548339844,
+                    0.0,
+                    4.587892055511475,
+                    0.2575940787792206,
+                    104.83331298828125,
+                    52.73332977294922,
+                    0.6704147458076477,
+                    0.43347492814064026,
+                    0.14282657206058502,
+                    99.82553100585938,
+                    179.83697509765625,
+                    -7.792755126953125,
+                    -4.935917854309082
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5444,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564748.7964
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19075,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.34063720703125,
+                    0.4993675947189331,
+                    -33.82749557495117,
+                    33.65444564819336,
+                    0.0,
+                    4.034863471984863,
+                    -0.60286945104599,
+                    121.51498413085938,
+                    29.82664680480957,
+                    0.6948286294937134,
+                    0.5604888200759888,
+                    0.11840663850307465,
+                    108.15241241455078,
+                    188.86082458496094,
+                    -7.470543384552002,
+                    -3.490194320678711
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5374,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564795.884
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19076,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.273000717163086,
+                    0.09151802957057953,
+                    -34.002288818359375,
+                    33.74523162841797,
+                    0.0,
+                    9.197399139404297,
+                    -1.3390345573425293,
+                    68.5137939453125,
+                    31.087051391601562,
+                    0.6751282811164856,
+                    0.5683609843254089,
+                    0.09790637344121933,
+                    109.10398864746094,
+                    213.7864532470703,
+                    -7.247935771942139,
+                    1.661110520362854
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5447,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564828.8584
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19077,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.275745391845703,
+                    0.9639434218406677,
+                    -33.650611877441406,
+                    33.875450134277344,
+                    0.0,
+                    9.00434684753418,
+                    -1.1390293836593628,
+                    40.04907989501953,
+                    31.53379249572754,
+                    0.7038252949714661,
+                    0.5952275395393372,
+                    0.08135807514190674,
+                    99.95342254638672,
+                    206.7012176513672,
+                    -6.8080830574035645,
+                    6.537400722503662
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5468,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564858.093
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19078,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.319103240966797,
+                    0.25730592012405396,
+                    -33.530906677246094,
+                    33.36558532714844,
+                    0.0,
+                    10.741918563842773,
+                    -2.3682453632354736,
+                    26.945024490356445,
+                    5.567364692687988,
+                    0.6774721741676331,
+                    0.5903631448745728,
+                    0.0986330658197403,
+                    66.7687759399414,
+                    169.9722137451172,
+                    -7.257069110870361,
+                    7.147265911102295
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5355,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564906.4714
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19079,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.29067611694336,
+                    0.29457423090934753,
+                    -33.458438873291016,
+                    33.489158630371094,
+                    0.0,
+                    7.57756233215332,
+                    -2.7003984451293945,
+                    59.764869689941406,
+                    37.87073516845703,
+                    0.6001157164573669,
+                    0.43236401677131653,
+                    0.06695011258125305,
+                    22.210386276245117,
+                    81.01172637939453,
+                    -5.856975555419922,
+                    12.026083946228027
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5440,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1102,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564939.8313
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19080,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.290023803710938,
+                    0.8557116389274597,
+                    -33.214942932128906,
+                    33.29145050048828,
+                    0.0,
+                    9.410070419311523,
+                    -3.9882383346557617,
+                    16.815631866455078,
+                    28.067829132080078,
+                    0.5895825028419495,
+                    0.12783440947532654,
+                    0.016572028398513794,
+                    3.649132251739502,
+                    55.337486267089844,
+                    -4.924006938934326,
+                    14.229366302490234
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5381,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869564984.7134
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19081,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.267305374145508,
+                    0.8583909869194031,
+                    -33.05360794067383,
+                    33.65134811401367,
+                    0.0,
+                    9.777280807495117,
+                    -2.2651596069335938,
+                    50.973819732666016,
+                    8.857529640197754,
+                    0.46508318185806274,
+                    0.0972815454006195,
+                    -0.1059405729174614,
+                    2.080867052078247,
+                    11.46860122680664,
+                    -5.1653337478637695,
+                    21.11229133605957
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5497,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565014.7795
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19082,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.189950942993164,
+                    0.5194340944290161,
+                    -33.08187484741211,
+                    32.593685150146484,
+                    0.0,
+                    8.67270278930664,
+                    -3.0435943603515625,
+                    47.47787094116211,
+                    29.639663696289062,
+                    0.3646388053894043,
+                    0.07344131916761398,
+                    -0.30082154273986816,
+                    1.667641043663025,
+                    -2.8087100982666016,
+                    -3.8641464710235596,
+                    26.259639739990234
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5526,
+                    "transmitOutTime": 2986
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565045.3796
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19083,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.179100036621094,
+                    1.8477555513381958,
+                    -32.92517852783203,
+                    30.750688552856445,
+                    1.0,
+                    6.297569274902344,
+                    -1.5025523900985718,
+                    79.34149932861328,
+                    44.09332275390625,
+                    -0.17015503346920013,
+                    0.07191530615091324,
+                    -0.3568311929702759,
+                    1.6508349180221558,
+                    -5.476551055908203,
+                    -3.422654628753662,
+                    38.66326141357422
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5542,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565076.29
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19084,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.02326774597168,
+                    1.4741610288619995,
+                    -33.3053092956543,
+                    30.401121139526367,
+                    4.0,
+                    3.7680463790893555,
+                    0.8671450018882751,
+                    99.98966217041016,
+                    58.419830322265625,
+                    -0.2014293372631073,
+                    0.19159573316574097,
+                    -0.44339191913604736,
+                    5.54093599319458,
+                    -5.767880439758301,
+                    -9.381986618041992,
+                    43.60011672973633
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5543,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565107.9888
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19085,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.048587799072266,
+                    1.1434881687164307,
+                    -33.14232635498047,
+                    32.364749908447266,
+                    2.0,
+                    11.889679908752441,
+                    -2.075552225112915,
+                    1.3796422481536865,
+                    0.9483664631843567,
+                    -0.12569759786128998,
+                    0.13703806698322296,
+                    -0.5767485499382019,
+                    3.77872896194458,
+                    -7.310268402099609,
+                    -9.756305694580078,
+                    40.976104736328125
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5391,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565141.5862
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19086,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.050100326538086,
+                    0.13175565004348755,
+                    -29.07699203491211,
+                    32.604549407958984,
+                    4.0,
+                    8.105157852172852,
+                    -3.235833168029785,
+                    8.350597381591797,
+                    15.935924530029297,
+                    -0.0887170135974884,
+                    0.17404505610466003,
+                    -0.2314697802066803,
+                    11.697310447692871,
+                    -16.87491798400879,
+                    -6.732271194458008,
+                    30.571195602416992
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5558,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565170.7417
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19087,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.80637550354004,
+                    -0.5059813857078552,
+                    -27.844301223754883,
+                    32.284183502197266,
+                    6.0,
+                    4.310613632202148,
+                    2.6840617656707764,
+                    42.357826232910156,
+                    76.5493392944336,
+                    0.02833602949976921,
+                    -0.15701426565647125,
+                    -0.2661615014076233,
+                    -10.101668357849121,
+                    -6.791693210601807,
+                    -11.460973739624023,
+                    23.943845748901367
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5395,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565205.2874
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19088,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.008342742919922,
+                    0.24205957353115082,
+                    -30.54972267150879,
+                    31.750246047973633,
+                    4.0,
+                    5.879452228546143,
+                    0.6104907393455505,
+                    85.92932891845703,
+                    59.092960357666016,
+                    0.031105684116482735,
+                    -0.20370416343212128,
+                    -0.39568325877189636,
+                    -17.620532989501953,
+                    7.812933921813965,
+                    -9.374094009399414,
+                    5.467589378356934
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5530,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565233.4539
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19089,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.924522399902344,
+                    1.8995012044906616,
+                    -32.987388610839844,
+                    29.812639236450195,
+                    4.0,
+                    5.340280055999756,
+                    1.5641874074935913,
+                    72.05624389648438,
+                    30.998794555664062,
+                    -0.017700333148241043,
+                    0.01905704103410244,
+                    -0.30425408482551575,
+                    -17.082759857177734,
+                    9.833141326904297,
+                    -18.073165893554688,
+                    13.381404876708984
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5456,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565266.458
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19090,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.68047523498535,
+                    4.466189861297607,
+                    -33.34688949584961,
+                    30.278217315673828,
+                    2.0,
+                    7.860115051269531,
+                    1.0375903844833374,
+                    43.048377990722656,
+                    86.50737762451172,
+                    0.01259589847177267,
+                    0.24769805371761322,
+                    -0.22694189846515656,
+                    -16.141281127929688,
+                    13.69273853302002,
+                    -23.64568328857422,
+                    14.44276237487793
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5388,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565308.5664
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19091,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.623090744018555,
+                    6.86369514465332,
+                    -32.004127502441406,
+                    29.206209182739258,
+                    12.0,
+                    7.761614799499512,
+                    5.5405497550964355,
+                    32.912452697753906,
+                    63.638179779052734,
+                    0.042728181928396225,
+                    0.6259702444076538,
+                    -0.23303289711475372,
+                    -20.56932830810547,
+                    14.128867149353027,
+                    -44.5228385925293,
+                    14.23468017578125
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5366,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565326.877
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19092,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.0888729095459,
+                    6.279173851013184,
+                    -30.06859588623047,
+                    27.2148494720459,
+                    27.0,
+                    5.874506950378418,
+                    1.1232024431228638,
+                    45.57057571411133,
+                    48.599586486816406,
+                    -0.03694384545087814,
+                    0.6066901087760925,
+                    -0.3615990877151489,
+                    -24.048879623413086,
+                    17.37062644958496,
+                    -52.2065315246582,
+                    20.869327545166016
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5560,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565358.4224
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19093,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.956396102905273,
+                    2.8217291831970215,
+                    -27.29085350036621,
+                    23.88665199279785,
+                    42.0,
+                    5.448667049407959,
+                    1.6986265182495117,
+                    44.776363372802734,
+                    50.58173751831055,
+                    -0.08660722523927689,
+                    0.6145259737968445,
+                    -0.591856837272644,
+                    -33.949188232421875,
+                    30.681495666503906,
+                    -67.94561004638672,
+                    41.17801284790039
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5494,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565414.2427
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19094,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.021360397338867,
+                    1.097886562347412,
+                    -24.895313262939453,
+                    23.75658416748047,
+                    57.0,
+                    1.8498082160949707,
+                    -3.5080881118774414,
+                    52.50061798095703,
+                    26.011144638061523,
+                    -0.07858093827962875,
+                    0.618824303150177,
+                    -0.7243838906288147,
+                    -14.239975929260254,
+                    73.06890869140625,
+                    -47.354000091552734,
+                    88.33582305908203
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5567,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565453.1003
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19095,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.293737411499023,
+                    0.5129377841949463,
+                    -26.11518669128418,
+                    26.831262588500977,
+                    37.0,
+                    1.0635496377944946,
+                    -5.1534037590026855,
+                    47.352840423583984,
+                    12.036263465881348,
+                    -0.04211656004190445,
+                    0.6210356950759888,
+                    -0.7421587705612183,
+                    9.479537963867188,
+                    112.65259552001953,
+                    -29.686304092407227,
+                    121.19000244140625
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5626,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 787
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565486.6313
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19096,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.046321868896484,
+                    0.29083383083343506,
+                    -27.734569549560547,
+                    29.925113677978516,
+                    21.0,
+                    6.142874717712402,
+                    -0.5313226580619812,
+                    53.944583892822266,
+                    21.625667572021484,
+                    -0.0011475026840344071,
+                    0.612215518951416,
+                    -0.7139492630958557,
+                    9.794954299926758,
+                    108.99638366699219,
+                    -28.373273849487305,
+                    114.72323608398438
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5671,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565514.526
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19097,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.74215316772461,
+                    0.36213257908821106,
+                    -29.05222511291504,
+                    29.639829635620117,
+                    13.0,
+                    9.07824420928955,
+                    -2.868290901184082,
+                    9.842607498168945,
+                    1.4877815246582031,
+                    -0.01400607731193304,
+                    0.6212164759635925,
+                    -0.6980059146881104,
+                    14.346343994140625,
+                    98.9065933227539,
+                    -25.782344818115234,
+                    105.49784088134766
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5536,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565561.2346
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19098,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.57082748413086,
+                    1.1108300685882568,
+                    -30.921226501464844,
+                    31.2499942779541,
+                    2.0,
+                    8.321959495544434,
+                    -1.3764748573303223,
+                    23.750661849975586,
+                    8.900800704956055,
+                    0.02994108386337757,
+                    0.614844560623169,
+                    -0.6802628040313721,
+                    18.37896156311035,
+                    88.20297241210938,
+                    -21.695714950561523,
+                    94.8258285522461
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5488,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565594.457
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19099,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.43295669555664,
+                    0.7821680307388306,
+                    -32.243099212646484,
+                    29.071393966674805,
+                    8.0,
+                    9.589170455932617,
+                    -0.8334614634513855,
+                    4.729633808135986,
+                    7.628445148468018,
+                    0.01658688299357891,
+                    0.6023048162460327,
+                    -0.6400397419929504,
+                    23.608240127563477,
+                    90.38207244873047,
+                    -15.334650039672852,
+                    89.11925506591797
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5456,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565623.9827
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19100,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.381776809692383,
+                    1.9427540302276611,
+                    -32.48881530761719,
+                    24.32599449157715,
+                    12.0,
+                    6.66292667388916,
+                    1.7144006490707397,
+                    3.4677326679229736,
+                    5.283551216125488,
+                    0.038462087512016296,
+                    0.5965151190757751,
+                    -0.4852146506309509,
+                    36.68513107299805,
+                    83.33153533935547,
+                    -16.378643035888672,
+                    80.35005187988281
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5535,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565670.1738
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19101,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.584787368774414,
+                    0.8885149359703064,
+                    -32.22006607055664,
+                    25.799348831176758,
+                    21.0,
+                    7.552499771118164,
+                    0.05617351084947586,
+                    10.01411247253418,
+                    33.31245040893555,
+                    0.059423428028821945,
+                    0.5840393900871277,
+                    -0.38822317123413086,
+                    42.017730712890625,
+                    77.07091522216797,
+                    -10.208008766174316,
+                    63.60476303100586
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5616,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565686.3718
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19102,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.798402786254883,
+                    1.7270736694335938,
+                    -31.294593811035156,
+                    25.145069122314453,
+                    21.0,
+                    7.865539073944092,
+                    -3.180277109146118,
+                    28.949678421020508,
+                    23.16168975830078,
+                    0.08750040829181671,
+                    0.5543078184127808,
+                    -0.31068021059036255,
+                    46.6992301940918,
+                    72.65794372558594,
+                    10.270705223083496,
+                    50.930789947509766
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5690,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 43,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565733.1658
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19103,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.261287689208984,
+                    2.1385459899902344,
+                    -31.86179542541504,
+                    23.95567512512207,
+                    23.0,
+                    8.12779712677002,
+                    -1.573527216911316,
+                    22.72022819519043,
+                    12.104476928710938,
+                    0.09262952953577042,
+                    0.5497593879699707,
+                    -0.22125138342380524,
+                    47.80307388305664,
+                    75.54305267333984,
+                    18.297807693481445,
+                    44.259395599365234
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5681,
+                    "transmitOutTime": 2982
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 44,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565780.1956
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19104,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    31.06633949279785,
+                    1.5459972620010376,
+                    -31.927080154418945,
+                    26.349109649658203,
+                    20.0,
+                    7.997183799743652,
+                    -0.7511930465698242,
+                    19.91027069091797,
+                    45.11130142211914,
+                    0.0823589637875557,
+                    0.5583419799804688,
+                    -0.16520123183727264,
+                    43.54827117919922,
+                    86.13600158691406,
+                    16.389596939086914,
+                    47.699710845947266
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5694,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 555,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565814.021
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19105,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.565845489501953,
+                    2.005927562713623,
+                    -30.2530574798584,
+                    22.66110610961914,
+                    44.0,
+                    7.073030948638916,
+                    0.3354506194591522,
+                    11.098625183105469,
+                    11.267899513244629,
+                    0.13619665801525116,
+                    0.554825484752655,
+                    -0.08216758072376251,
+                    48.34325408935547,
+                    71.32158660888672,
+                    19.775691986083984,
+                    23.352890014648438
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5673,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565844.254
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19106,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    30.01728057861328,
+                    2.0194056034088135,
+                    -28.601116180419922,
+                    21.57874870300293,
+                    58.0,
+                    7.038397789001465,
+                    0.4953572154045105,
+                    2.8980698585510254,
+                    3.822373390197754,
+                    0.17510771751403809,
+                    0.5298581719398499,
+                    -0.18143704533576965,
+                    43.815147399902344,
+                    72.29297637939453,
+                    30.68010711669922,
+                    12.740277290344238
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5459,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565889.033
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19107,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.977319717407227,
+                    2.1569302082061768,
+                    -29.24131965637207,
+                    20.94422721862793,
+                    62.0,
+                    6.811844348907471,
+                    0.30337977409362793,
+                    4.102760314941406,
+                    4.365710258483887,
+                    0.11206797510385513,
+                    0.6654644012451172,
+                    -0.3065797984600067,
+                    50.18144226074219,
+                    66.64075469970703,
+                    12.21879768371582,
+                    23.72386932373047
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5538,
+                    "transmitOutTime": 2982
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565905.1501
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19108,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.660276412963867,
+                    0.026172233745455742,
+                    -28.196836471557617,
+                    21.364885330200195,
+                    88.0,
+                    7.487233638763428,
+                    -0.9565826654434204,
+                    7.476141452789307,
+                    7.9736175537109375,
+                    0.07010769844055176,
+                    0.6988251805305481,
+                    -0.3578811585903168,
+                    51.16255569458008,
+                    65.37433624267578,
+                    10.626611709594727,
+                    24.20966339111328
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5540,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565936.2166
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19109,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.430625915527344,
+                    0.1928868293762207,
+                    -29.257600784301758,
+                    18.58003807067871,
+                    100.0,
+                    5.665592193603516,
+                    -0.49901679158210754,
+                    3.276245355606079,
+                    2.3461368083953857,
+                    0.09274937957525253,
+                    0.6996473670005798,
+                    -0.30449044704437256,
+                    45.4785270690918,
+                    70.39680480957031,
+                    3.6611480712890625,
+                    37.7348747253418
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5456,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 44,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869565968.6929
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19110,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.2506046295166,
+                    -0.7017304301261902,
+                    -28.956165313720703,
+                    19.75925064086914,
+                    113.0,
+                    5.682291030883789,
+                    -1.342862844467163,
+                    3.0701258182525635,
+                    3.1403214931488037,
+                    0.08757739514112473,
+                    0.6844473481178284,
+                    -0.23628820478916168,
+                    40.80787658691406,
+                    67.2698974609375,
+                    0.6752886772155762,
+                    37.74965286254883
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5520,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 44,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566000.6855
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19111,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.236326217651367,
+                    -1.158966302871704,
+                    -30.033241271972656,
+                    21.461071014404297,
+                    109.0,
+                    6.339876651763916,
+                    -0.9142879247665405,
+                    5.943492889404297,
+                    3.210035800933838,
+                    0.02006540447473526,
+                    0.4356907308101654,
+                    -0.1686486303806305,
+                    26.187999725341797,
+                    64.51879119873047,
+                    -25.87042808532715,
+                    33.74612045288086
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5534,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566044.2593
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19112,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.368284225463867,
+                    -1.444069504737854,
+                    -29.72012710571289,
+                    21.862407684326172,
+                    94.0,
+                    6.160386562347412,
+                    -0.8195298314094543,
+                    7.5630974769592285,
+                    18.88963508605957,
+                    0.13043206930160522,
+                    0.3119807243347168,
+                    -0.15874823927879333,
+                    25.2833194732666,
+                    64.79605102539062,
+                    -31.691631317138672,
+                    36.814334869384766
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5538,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566074.399
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19113,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.217756271362305,
+                    -1.7354068756103516,
+                    -30.27579116821289,
+                    24.000173568725586,
+                    78.0,
+                    6.20374059677124,
+                    -2.3692684173583984,
+                    9.573431968688965,
+                    19.464719772338867,
+                    0.19669091701507568,
+                    0.25287747383117676,
+                    -0.15331847965717316,
+                    31.214460372924805,
+                    61.75143051147461,
+                    -29.707378387451172,
+                    36.37190246582031
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5541,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566108.4878
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19114,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.102148056030273,
+                    -2.975663185119629,
+                    -29.873371124267578,
+                    25.32197380065918,
+                    74.0,
+                    6.626577377319336,
+                    -1.1297013759613037,
+                    18.337421417236328,
+                    20.484798431396484,
+                    0.256509006023407,
+                    0.25357896089553833,
+                    -0.1546345353126526,
+                    19.335126876831055,
+                    37.25785446166992,
+                    -31.362672805786133,
+                    32.84756088256836
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5600,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566149.4
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19115,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.07051658630371,
+                    -2.331284999847412,
+                    -30.51081085205078,
+                    25.95958137512207,
+                    63.0,
+                    7.813079833984375,
+                    0.6779695749282837,
+                    16.23805809020996,
+                    28.333683013916016,
+                    0.33159732818603516,
+                    0.18157629668712616,
+                    -0.2893080413341522,
+                    3.003974676132202,
+                    13.589213371276855,
+                    -18.98691749572754,
+                    48.117183685302734
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5468,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566170.7898
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19116,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.03740119934082,
+                    -2.9280993938446045,
+                    -30.158418655395508,
+                    27.178895950317383,
+                    61.0,
+                    8.335526466369629,
+                    -0.12094361335039139,
+                    15.514182090759277,
+                    21.07611846923828,
+                    0.20860224962234497,
+                    0.11247523874044418,
+                    -0.4992177188396454,
+                    3.521897315979004,
+                    10.567956924438477,
+                    -18.487598419189453,
+                    57.34260559082031
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5530,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566217.5227
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19117,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.790964126586914,
+                    -4.230815410614014,
+                    -30.38841438293457,
+                    28.7642822265625,
+                    57.0,
+                    10.049985885620117,
+                    -1.8999955654144287,
+                    11.787318229675293,
+                    18.573625564575195,
+                    -0.1018717810511589,
+                    0.23435428738594055,
+                    -0.6141355037689209,
+                    0.6699638366699219,
+                    12.883440971374512,
+                    -12.28458309173584,
+                    60.1752815246582
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5300,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566253.528
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19118,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.87636375427246,
+                    -3.026287078857422,
+                    -30.110374450683594,
+                    28.573604583740234,
+                    54.0,
+                    9.34080696105957,
+                    -0.7919620871543884,
+                    25.65178108215332,
+                    28.510047912597656,
+                    -0.22893352806568146,
+                    0.2523682415485382,
+                    -0.5995688438415527,
+                    1.0530524253845215,
+                    11.836380004882812,
+                    -7.903074264526367,
+                    62.15252685546875
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5316,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566295.887
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19119,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.850814819335938,
+                    -3.203843832015991,
+                    -30.219823837280273,
+                    28.818044662475586,
+                    58.0,
+                    10.099884986877441,
+                    -1.5636472702026367,
+                    15.17642593383789,
+                    22.371662139892578,
+                    -0.39839500188827515,
+                    0.29439494013786316,
+                    -0.49743035435676575,
+                    1.4070820808410645,
+                    7.419581413269043,
+                    -11.294514656066895,
+                    64.0025863647461
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5294,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566326.3853
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19120,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.856794357299805,
+                    -2.8045523166656494,
+                    -29.73295021057129,
+                    28.976839065551758,
+                    53.0,
+                    9.243754386901855,
+                    -0.6456109285354614,
+                    24.249774932861328,
+                    28.20536231994629,
+                    -0.4191775619983673,
+                    0.18127235770225525,
+                    -0.48141562938690186,
+                    -4.327630043029785,
+                    8.524921417236328,
+                    -10.901747703552246,
+                    72.29149627685547
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5301,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566360.6025
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19121,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.778596878051758,
+                    -3.3775081634521484,
+                    -30.16047477722168,
+                    28.19473648071289,
+                    65.0,
+                    9.775110244750977,
+                    -1.486611247062683,
+                    17.147520065307617,
+                    20.09160041809082,
+                    -0.4753659665584564,
+                    0.18023750185966492,
+                    -0.48036059737205505,
+                    -6.3500165939331055,
+                    8.843445777893066,
+                    -14.510880470275879,
+                    80.5087890625
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5374,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566390.7944
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19122,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.839061737060547,
+                    -3.1602935791015625,
+                    -30.44961929321289,
+                    27.80342674255371,
+                    59.0,
+                    9.185272216796875,
+                    -1.9371328353881836,
+                    22.08678436279297,
+                    38.672935485839844,
+                    -0.5288086533546448,
+                    0.45157578587532043,
+                    -0.5010193586349487,
+                    -3.8696813583374023,
+                    9.2905912399292,
+                    -16.56610870361328,
+                    85.20429992675781
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5295,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566436.5374
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19123,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.79667854309082,
+                    -3.814884662628174,
+                    -30.54470443725586,
+                    27.83007049560547,
+                    71.0,
+                    7.65907096862793,
+                    -2.2960410118103027,
+                    36.73772430419922,
+                    49.85356521606445,
+                    -0.5658326745033264,
+                    0.6088940501213074,
+                    -0.612595796585083,
+                    -3.359752893447876,
+                    8.509343147277832,
+                    -21.56121826171875,
+                    85.23658752441406
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5367,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566470.157
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19124,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.744388580322266,
+                    -4.155864238739014,
+                    -29.896438598632812,
+                    27.984874725341797,
+                    76.0,
+                    9.614080429077148,
+                    -1.3761613368988037,
+                    19.002403259277344,
+                    21.795927047729492,
+                    -0.6457996964454651,
+                    0.6379439234733582,
+                    -0.6721229553222656,
+                    -3.6747920513153076,
+                    8.074016571044922,
+                    -23.281179428100586,
+                    90.69285583496094
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5299,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566516.9294
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19125,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.84984588623047,
+                    -3.263029098510742,
+                    -29.596689224243164,
+                    27.673664093017578,
+                    64.0,
+                    10.414985656738281,
+                    -1.8477392196655273,
+                    12.776874542236328,
+                    15.02808666229248,
+                    -0.6696069240570068,
+                    0.5972332954406738,
+                    -0.6863996982574463,
+                    -4.061281204223633,
+                    7.8911848068237305,
+                    -22.55393409729004,
+                    95.49309539794922
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5306,
+                    "transmitOutTime": 2982
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566545.94
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19126,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.88372230529785,
+                    -2.450521945953369,
+                    -30.02086067199707,
+                    28.36858558654785,
+                    59.0,
+                    10.180858612060547,
+                    -1.8131922483444214,
+                    10.812386512756348,
+                    12.750631332397461,
+                    -0.6805109977722168,
+                    0.4948727488517761,
+                    -0.6648960113525391,
+                    -2.25596022605896,
+                    7.041247844696045,
+                    -18.91312026977539,
+                    98.22325897216797
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5298,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566569.1067
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19127,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.904739379882812,
+                    -3.566474676132202,
+                    -29.621204376220703,
+                    28.658540725708008,
+                    51.0,
+                    10.058869361877441,
+                    -2.238718032836914,
+                    14.05677604675293,
+                    14.096769332885742,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5300,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 45
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869566598.8538
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19128,
+                "pointCloud": [],
+                "gesturePresence": 0,
+                "procTimeData": {
+                    "interFrameProcTime": 107,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 43,
+                    "tempPM": 43,
+                    "tempDIG": 40
+                }
+            },
+            "timestamp": 1756869567091.6643
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19129,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.725170135498047,
+                    1.600310206413269,
+                    -30.029556274414062,
+                    19.22465705871582,
+                    147.0,
+                    -2.042062759399414,
+                    2.85082745552063,
+                    125.24149322509766,
+                    64.60802459716797,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4826,
+                    "transmitOutTime": 2139
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 39,
+                    "tempTx": 42,
+                    "tempPM": 41,
+                    "tempDIG": 42
+                },
+                "presenceThreshold": 7865
+            },
+            "timestamp": 1756869567155.0457
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19130,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.450410842895508,
+                    0.2813178598880768,
+                    -30.218860626220703,
+                    19.289255142211914,
+                    123.0,
+                    5.544401168823242,
+                    1.7144798040390015,
+                    99.97642517089844,
+                    123.76597595214844,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4846,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 39,
+                    "tempTx": 42,
+                    "tempPM": 41,
+                    "tempDIG": 43
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567201.3025
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19131,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.42426872253418,
+                    1.2523038387298584,
+                    -30.260446548461914,
+                    18.276161193847656,
+                    123.0,
+                    -7.170992374420166,
+                    3.042299509048462,
+                    101.2745132446289,
+                    101.45640563964844,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4909,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 39,
+                    "tempTx": 43,
+                    "tempPM": 41,
+                    "tempDIG": 43
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567244.3982
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19132,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.436702728271484,
+                    -0.08758393675088882,
+                    -30.18993377685547,
+                    19.465713500976562,
+                    130.0,
+                    -2.6046643257141113,
+                    0.5494282245635986,
+                    80.73665618896484,
+                    65.60392761230469,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4907,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 40,
+                    "tempTx": 43,
+                    "tempPM": 42,
+                    "tempDIG": 43
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567274.433
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19133,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.386932373046875,
+                    -0.22648148238658905,
+                    -30.137737274169922,
+                    20.01230239868164,
+                    100.0,
+                    5.945465087890625,
+                    2.7058238983154297,
+                    106.21517944335938,
+                    86.82538604736328,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4916,
+                    "transmitOutTime": 2985
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 40,
+                    "tempTx": 43,
+                    "tempPM": 42,
+                    "tempDIG": 43
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567311.0295
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19134,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.45265007019043,
+                    -0.7405426502227783,
+                    -30.221920013427734,
+                    20.185821533203125,
+                    101.0,
+                    0.34810084104537964,
+                    1.3948220014572144,
+                    47.037567138671875,
+                    67.85147857666016,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4921,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 40,
+                    "tempTx": 43,
+                    "tempPM": 42,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567349.2961
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19135,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.23750877380371,
+                    -0.012978331185877323,
+                    -30.756715774536133,
+                    18.221853256225586,
+                    103.0,
+                    -0.5852198004722595,
+                    -0.5658613443374634,
+                    92.62486267089844,
+                    77.11034393310547,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4828,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 40,
+                    "tempTx": 43,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567373.581
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19136,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.756916046142578,
+                    -0.3177948594093323,
+                    -30.28083038330078,
+                    18.02591323852539,
+                    105.0,
+                    3.6698992252349854,
+                    2.286982536315918,
+                    56.44533157348633,
+                    43.29279708862305,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4828,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 43,
+                    "tempPM": 42,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567420.7864
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19137,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.589731216430664,
+                    -0.32996827363967896,
+                    -30.248388290405273,
+                    19.301025390625,
+                    86.0,
+                    -1.9275414943695068,
+                    -0.7753641605377197,
+                    22.415420532226562,
+                    18.833351135253906,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4829,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 40,
+                    "tempTx": 43,
+                    "tempPM": 42,
+                    "tempDIG": 43
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567467.76
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19138,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.49422264099121,
+                    0.19115930795669556,
+                    -30.388978958129883,
+                    18.96158218383789,
+                    80.0,
+                    -2.751962900161743,
+                    -0.7337607741355896,
+                    47.81160354614258,
+                    31.425447463989258,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4833,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 43,
+                    "tempPM": 42,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567484.7375
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19139,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.61680793762207,
+                    -0.8818400502204895,
+                    -30.281949996948242,
+                    18.963899612426758,
+                    68.0,
+                    -2.3346543312072754,
+                    -0.6628992557525635,
+                    27.153221130371094,
+                    19.105337142944336,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4903,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 40,
+                    "tempTx": 43,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567529.2888
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19140,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.009288787841797,
+                    -1.404423713684082,
+                    -30.138072967529297,
+                    21.319255828857422,
+                    79.0,
+                    -1.705191731452942,
+                    -2.4413371086120605,
+                    57.91222381591797,
+                    20.54909324645996,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4846,
+                    "transmitOutTime": 2982
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 40,
+                    "tempTx": 44,
+                    "tempPM": 42,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567558.802
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19141,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.813623428344727,
+                    -1.3085392713546753,
+                    -30.09877586364746,
+                    20.735872268676758,
+                    81.0,
+                    -3.8002872467041016,
+                    -2.258375883102417,
+                    43.824520111083984,
+                    20.068422317504883,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 4831,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 43,
+                    "tempPM": 42,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567589.2874
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19142,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.062057495117188,
+                    -0.8426401615142822,
+                    -30.10844612121582,
+                    19.815549850463867,
+                    79.0,
+                    -1.9969210624694824,
+                    -2.2776222229003906,
+                    50.331153869628906,
+                    33.7745361328125,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5371,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 43,
+                    "tempPM": 42,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567623.641
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19143,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.89202308654785,
+                    -0.020947808399796486,
+                    -30.362686157226562,
+                    16.823917388916016,
+                    75.0,
+                    -5.572056770324707,
+                    -4.267329692840576,
+                    19.639577865600586,
+                    27.894433975219727,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5384,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567658.5493
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19144,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.114810943603516,
+                    0.8277975916862488,
+                    -30.270931243896484,
+                    15.113617897033691,
+                    81.0,
+                    -5.383068561553955,
+                    -2.543215751647949,
+                    18.34009552001953,
+                    11.829734802246094,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5324,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567685.668
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19145,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.40714454650879,
+                    0.4987144470214844,
+                    -30.04602813720703,
+                    15.542156219482422,
+                    92.0,
+                    -4.121426105499268,
+                    -1.1751658916473389,
+                    38.0804443359375,
+                    28.600656509399414,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5464,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 40,
+                    "tempTx": 43,
+                    "tempPM": 42,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567733.3662
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19146,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.481416702270508,
+                    0.30743408203125,
+                    -30.107505798339844,
+                    15.44973087310791,
+                    90.0,
+                    -4.590877532958984,
+                    -0.46410736441612244,
+                    26.969722747802734,
+                    16.947851181030273,
+                    -0.7489017248153687,
+                    0.3670504093170166,
+                    -0.6013941168785095,
+                    -1.0334599018096924,
+                    5.67810583114624,
+                    -14.889714241027832,
+                    97.11721801757812
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5464,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567765.0234
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19147,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.78361701965332,
+                    0.21124261617660522,
+                    -29.881383895874023,
+                    16.991348266601562,
+                    86.0,
+                    -5.9629998207092285,
+                    -2.727219343185425,
+                    11.186203002929688,
+                    9.242321968078613,
+                    -0.5249547958374023,
+                    0.4020650088787079,
+                    -0.29567795991897583,
+                    -0.5107205510139465,
+                    4.676169395446777,
+                    0.06516201794147491,
+                    138.40634155273438
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5697,
+                    "transmitOutTime": 2982
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 42,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567811.7205
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19148,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.01015281677246,
+                    0.3531554937362671,
+                    -30.253860473632812,
+                    15.485589027404785,
+                    99.0,
+                    -3.464545488357544,
+                    -2.212813138961792,
+                    35.68510818481445,
+                    53.55353927612305,
+                    -0.2578887939453125,
+                    0.34870481491088867,
+                    0.02515057846903801,
+                    0.03470922261476517,
+                    1.5794858932495117,
+                    22.834245681762695,
+                    57.69997024536133
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5680,
+                    "transmitOutTime": 2986
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 42,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567841.9211
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19149,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.082271575927734,
+                    0.21069465577602386,
+                    -29.966922760009766,
+                    16.506052017211914,
+                    98.0,
+                    -5.146932601928711,
+                    -2.3044679164886475,
+                    44.030364990234375,
+                    80.31053924560547,
+                    -0.309946209192276,
+                    0.18587301671504974,
+                    -0.06963920593261719,
+                    1.087763786315918,
+                    2.3385586738586426,
+                    22.778623580932617,
+                    63.08055877685547
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5680,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567873.9907
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19150,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.194622039794922,
+                    1.7528752088546753,
+                    -29.738245010375977,
+                    13.415141105651855,
+                    104.0,
+                    -0.7629665732383728,
+                    -1.9571900367736816,
+                    34.34870147705078,
+                    34.48687744140625,
+                    -0.3005576431751251,
+                    0.06325702369213104,
+                    -0.30050361156463623,
+                    1.5816679000854492,
+                    1.4561654329299927,
+                    25.258535385131836,
+                    46.18400573730469
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5615,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567904.382
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19151,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    29.26252555847168,
+                    2.173459053039551,
+                    -29.83911895751953,
+                    12.993515014648438,
+                    111.0,
+                    -1.9018505811691284,
+                    0.10841578245162964,
+                    54.38774490356445,
+                    50.197479248046875,
+                    -0.14537696540355682,
+                    -0.027746474370360374,
+                    -0.4070412516593933,
+                    0.8925029635429382,
+                    1.7038216590881348,
+                    18.304601669311523,
+                    46.257957458496094
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5603,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567949.2893
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19152,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.296884536743164,
+                    3.0449576377868652,
+                    -30.010602951049805,
+                    11.936214447021484,
+                    106.0,
+                    -3.143125534057617,
+                    0.16877619922161102,
+                    42.75129318237305,
+                    55.213592529296875,
+                    -0.15811681747436523,
+                    0.07956460863351822,
+                    -0.4292294681072235,
+                    0.6674230098724365,
+                    1.8493880033493042,
+                    8.55517292022705,
+                    51.943092346191406
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5603,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869567969.1594
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19153,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.899776458740234,
+                    2.5502095222473145,
+                    -29.330223083496094,
+                    13.100788116455078,
+                    119.0,
+                    -2.60640549659729,
+                    -1.2327159643173218,
+                    44.9544792175293,
+                    48.80110549926758,
+                    -0.11946986615657806,
+                    0.12746237218379974,
+                    -0.5331520438194275,
+                    0.7435959577560425,
+                    1.9487911462783813,
+                    -2.161931276321411,
+                    28.10553741455078
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5600,
+                    "transmitOutTime": 2984
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869568009.287
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19154,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.565217971801758,
+                    3.186331272125244,
+                    -29.72702980041504,
+                    12.471571922302246,
+                    121.0,
+                    -2.6673450469970703,
+                    -2.787039279937744,
+                    13.755993843078613,
+                    24.88925552368164,
+                    -0.045726846903562546,
+                    0.09927351772785187,
+                    -0.576270341873169,
+                    0.9693276882171631,
+                    1.5467289686203003,
+                    -5.334037780761719,
+                    17.016510009765625
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5582,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869568054.2598
+        },
+        {
+            "frameData": {
+                "error": 0,
+                "frameNum": 19155,
+                "pointCloud": [],
+                "gestureFeatures": [
+                    28.947288513183594,
+                    3.789954423904419,
+                    -29.809030532836914,
+                    12.132336616516113,
+                    117.0,
+                    -1.7292871475219727,
+                    0.12738284468650818,
+                    21.843530654907227,
+                    48.831764221191406,
+                    0.03906043991446495,
+                    0.21407447755336761,
+                    -0.619288444519043,
+                    -0.023356471210718155,
+                    -0.318695068359375,
+                    -13.521414756774902,
+                    8.015279769897461
+                ],
+                "gesture": 0,
+                "ktoGesture": 0,
+                "gesturePresence": 1,
+                "procTimeData": {
+                    "interFrameProcTime": 5531,
+                    "transmitOutTime": 2983
+                },
+                "powerData": {
+                    "power1v8": 1002,
+                    "power3v3": 0,
+                    "power1v2": 610,
+                    "power1v2RF": 813
+                },
+                "tempData": {
+                    "tempRx": 41,
+                    "tempTx": 44,
+                    "tempPM": 43,
+                    "tempDIG": 44
+                },
+                "presenceThreshold": 0
+            },
+            "timestamp": 1756869568077.1736
+        }
+    ]
+}
