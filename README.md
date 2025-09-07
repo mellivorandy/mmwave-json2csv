@@ -144,13 +144,13 @@ make
 
 ```json
 "PowerShell": {
-    // ...
+    "_comment": "Omitted here."
 },
 "Command Prompt": {
-    // ...       
+    "_comment": "Omitted here."       
 },
 "Git Bash": {
-    // ...
+    "_comment": "Omitted here."
 },
 "bash (MSYS2)": {
     "path": "C:\\msys64\\usr\\bin\\bash.exe",
@@ -171,7 +171,7 @@ make
 
 ```json
 "terminal.integrated.profiles.windows": {
-    // ...
+    "_comment": "Omitted here."
 },
 "terminal.integrated.env.windows": {
     "CHERE_INVOKING": "1",
