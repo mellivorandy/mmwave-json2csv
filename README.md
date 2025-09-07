@@ -51,7 +51,15 @@ brew install gcc make
 
 ### 2. 編譯 & 執行
 
+#### Clone 此專案
+```bash
+git clone https://github.com/mellivorandy/mmwave-json2csv.git
+```
+
+<br>
+
 #### 編譯
+進入 `src/` 目錄
 ```bash
 cd src/
 ```
@@ -135,6 +143,15 @@ make
 加入後會長這樣
 
 ```json
+"PowerShell": {
+    // ...
+},
+"Command Prompt": {
+    // ...       
+},
+"Git Bash": {
+    // ...
+},
 "bash (MSYS2)": {
     "path": "C:\\msys64\\usr\\bin\\bash.exe",
     "args": [
@@ -153,6 +170,9 @@ make
 8. 接著在與 `"terminal.integrated.profiles.windows"` 同一層下方加入
 
 ```json
+"terminal.integrated.profiles.windows": {
+    // ...
+},
 "terminal.integrated.env.windows": {
     "CHERE_INVOKING": "1",
     "MSYSTEM": "MINGW64"
